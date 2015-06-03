@@ -84,5 +84,7 @@
     <orderEntry type="library" exported="" name="Gradle: commons-codec:commons-codec:1.6" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-io:commons-io:2.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.twitter4j:twitter4j-stream:4.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.twitter4j:twitter4j-core:4.0.3" level="project" />
   </component>
 </module>
