@@ -1,0 +1,30 @@
+apply plugin: 'java'
+apply plugin:'application'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'http://clojars.org/repo' }
+}
+
+idea{
+    project{
+        languageLevel = '1.7'
+    }
+}
+applicationDefaultJvmArgs=["-Xmx256m"]
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.apache.storm:storm-core:0.9.1-incubating'
+    compile 'org.apache.kafka:kafka_2.10:0.8.0'
+    compile 'net.wurstmeister.storm:storm-kafka-0.8-plus:0.4.0'
+    compile 'redis.clients:jedis:2.7.2'
+
+
+
+
+}

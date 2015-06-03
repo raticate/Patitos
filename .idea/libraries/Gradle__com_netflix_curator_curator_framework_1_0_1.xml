@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.curator:curator-framework:1.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.curator/curator-framework/1.0.1/e058b4d58883ce286234263298f7153c578d0c34/curator-framework-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.curator/curator-framework/1.0.1/af4e42ec801c5be016917141154b2ba37361516b/curator-framework-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

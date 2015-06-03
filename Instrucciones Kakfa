@@ -1,0 +1,17 @@
+/Directorio de Kafka
+
+Server Zoo Keeper:
+	bin/zookeeper-server-start.sh config/zookeeper.properties
+
+Server Kakfa:
+	bin/kafka-server-start.sh config/server.properties
+
+Crear Topic:
+	bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic storm
+
+Listar Topics del Server:
+	bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+Productor:
+	bin/kafka-console-producer.sh --broker-list localhost:9092 --topic storm 
+	muchos mensajes
