@@ -25,6 +25,8 @@ dependencies {
     compile 'org.apache.kafka:kafka_2.10:0.8.0'
     compile 'net.wurstmeister.storm:storm-kafka-0.8-plus:0.4.0'
     compile 'redis.clients:jedis:2.7.2'
+    compile 'commons-configuration:commons-configuration:1.7'
+
 
 
 

@@ -19,10 +19,10 @@ import storm.kafka.*;
             kafkaConf.scheme = new SchemeAsMultiScheme(new StringScheme());
             KafkaSpout kafkaSpout= new KafkaSpout(kafkaConf);
             builder.setSpout("kafka-spout", kafkaSpout, 1);*/
-            String key="U3YJ6lKqk7PhKZYrlJMdzx2ye";
-            String secret="DHL6A5PFM2Xt5wPGLC2frQhESi5qZRvBRiEiTShOqhzU055BJD";
-            String token="2182795520-Eb7cdlFgN3skoHDCw8CSxwiJjSh4XUEi5nmidfO";
-            String tokenSecret="ccfuYmgRJtZcRmZKp0tMClkIr1XLpLkCdRRjuJ83dlkMo";
+            String key=Properties.getString("twitter.key");
+            String secret=Properties.getString("twitter.secret");
+            String token=Properties.getString("twitter.token");
+            String tokenSecret="ccfuYmgRJtZcRmZKp0tMClkIr1XLpLkCdRRjuJ83dlkMo";//Properties.getString("twitter.tokenSecret");
             builder.setSpout("twitter-spout", new TweetSpout(key,secret,token,tokenSecret));
             builder.setBolt("printer-bolt", new PrintAllBolt()).shuffleGrouping("twitter-spout");
 

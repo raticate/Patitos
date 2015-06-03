@@ -86,5 +86,10 @@
     <orderEntry type="library" exported="" name="Gradle: junit:junit:3.8.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.twitter4j:twitter4j-stream:4.0.3" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.twitter4j:twitter4j-core:4.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-configuration:commons-configuration:1.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-digester:commons-digester:1.8.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-beanutils:commons-beanutils:1.8.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
   </component>
 </module>
