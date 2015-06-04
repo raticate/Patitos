@@ -16,13 +16,8 @@ import backtype.storm.tuple.Tuple;
 import backtype.storm.tuple.Values;
 import backtype.storm.utils.Utils;
 
+import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
-import twitter4j.TwitterStream;
-import twitter4j.TwitterStreamFactory;
-import twitter4j.Status;
-import twitter4j.StatusDeletionNotice;
-import twitter4j.StatusListener;
-import twitter4j.StallWarning;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -130,9 +125,14 @@ public class TweetSpout extends BaseRichSpout
 
         // provide the handler for twitter stream
         twitterStream.addListener(new TweetListener());
-
+        //FilterQuery q= new FilterQuery();
+        //String[] lang={"en"};
+        //q.language(lang);
+        //String[] trends={"hola"};
+        //q.track(trends);
+        //twitterStream.filter(q);
         // start the sampling of tweets
-        twitterStream.sample();
+        twitterStream.sample("en");
     }
 
     @Override
