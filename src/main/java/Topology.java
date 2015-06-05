@@ -1,5 +1,6 @@
 import backtype.storm.Config;
 import backtype.storm.LocalCluster;
+import backtype.storm.StormSubmitter;
 import backtype.storm.spout.SchemeAsMultiScheme;
 import backtype.storm.topology.TopologyBuilder;
 import backtype.storm.utils.Utils;
@@ -20,13 +21,10 @@ import storm.kafka.*;
             KafkaSpout kafkaSpout= new KafkaSpout(kafkaConf);
             builder.setSpout("kafka-spout", kafkaSpout, 1);*/
             String key=Properties.getString("twitter.key");
-            System.out.println(key);
             String secret=Properties.getString("twitter.secret");
-            System.out.println(secret);
             String token=Properties.getString("twitter.token");
-            System.out.println(token);
             String tokenSecret=Properties.getString("twitter.tokenSecret");
-            System.out.println(tokenSecret);
+
             builder.setSpout("twitter-spout", new TweetSpout(key,secret,token,tokenSecret));
             builder.setBolt("printer-bolt", new PrintAllBolt()).shuffleGrouping("twitter-spout");
 
@@ -35,9 +33,9 @@ import storm.kafka.*;
             Config conf = new Config();
 
             // set the config in debugging mode
-            //conf.setDebug(true);
+            conf.setDebug(true);
 
-        /*if (args != null && args.length > 0) {
+        if (args != null && args.length > 0) {
 
             // run it in a live cluster
 
@@ -47,7 +45,7 @@ import storm.kafka.*;
             // create the topology and submit with config
             StormSubmitter.submitTopology(args[0], conf, builder.createTopology());
 
-        } else {*/
+        } else {
 
             // run it in a simulated local cluster
 
@@ -58,7 +56,7 @@ import storm.kafka.*;
             LocalCluster cluster = new LocalCluster();
 
             // submit the topology to the local cluster
-            cluster.submitTopology("RTA-DNS", conf, builder.createTopology());
+            cluster.submitTopology("Patos", conf, builder.createTopology());
 
             // let the topology run for 300 seconds. note topologies never terminate!
             Utils.sleep(3000000000000000000L);
@@ -68,6 +66,6 @@ import storm.kafka.*;
 
             // we are done, so shutdown the local cluster
             cluster.shutdown();
-            //}
+            }
         }
     }
