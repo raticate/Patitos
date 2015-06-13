@@ -33,7 +33,7 @@ import storm.kafka.*;
             Config conf = new Config();
 
             // set the config in debugging mode
-            conf.setDebug(true);
+            //conf.setDebug(true);
 
         if (args != null && args.length > 0) {
 
