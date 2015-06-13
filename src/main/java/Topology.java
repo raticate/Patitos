@@ -4,6 +4,8 @@ import backtype.storm.StormSubmitter;
 import backtype.storm.spout.SchemeAsMultiScheme;
 import backtype.storm.topology.TopologyBuilder;
 import backtype.storm.utils.Utils;
+import bolts.FilterWeirdCharsBolt;
+import bolts.NormalizerBolt;
 import bolts.PrintAllBolt;
 import spouts.TweetSpout;
 import storm.kafka.*;
@@ -26,7 +28,8 @@ import storm.kafka.*;
             String tokenSecret=Properties.getString("twitter.tokenSecret");
 
             builder.setSpout("twitter-spout", new TweetSpout(key,secret,token,tokenSecret));
-            builder.setBolt("printer-bolt", new PrintAllBolt()).shuffleGrouping("twitter-spout");
+            builder.setBolt("weird-chars-bolt", new FilterWeirdCharsBolt()).shuffleGrouping("twitter-spout");
+            builder.setBolt("norm-bolt",new NormalizerBolt()).shuffleGrouping("weird-chars-bolt");
 
 
             // create the default config objectK
