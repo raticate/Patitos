@@ -2,6 +2,5 @@
 *.log
 *.properties
 *.iml
-/.idea/workspace.xml
-/.idea/tasks.xml
-/.idea/libraries/*
+/.idea/*
+
