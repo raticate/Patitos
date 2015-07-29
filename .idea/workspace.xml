@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2787e321-b845-4e63-a1dc-5efce6109751" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/NaiveBayes/BayesClassifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/NaiveBayes/Classification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/NaiveBayes/Classifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/NaiveBayes/Example.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/NaiveBayes/IFeatureProbability.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bolts/NormalizerBolt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bolts/StopWordsFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/UTF8.java" />
+    <list default="true" id="9c3bcddc-b468-47ad-b31b-fcca630f958e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bolts/ClassifierBolt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bolts/SeparatorBolt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/bolts/StopWordsFilterBolt.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NuestroProyecto.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Topology.java" afterPath="$PROJECT_DIR$/src/main/java/Topology.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/bolts/StopWordsFilter.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NuestroProyecto.iws" />
@@ -39,7 +29,16 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -48,28 +47,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Topology.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Topology.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Topology.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.632107">
-              <caret line="31" column="98" selection-start-line="31" selection-start-column="98" selection-end-line="31" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilterWeirdCharsBolt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bolts/FilterWeirdCharsBolt.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#851#999#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1342#1343#0" expanded="true" />
-              </folding>
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +61,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bolts/NormalizerBolt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StopWordsFilterBolt.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bolts/StopWordsFilterBolt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.757329">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,22 +79,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StopWordsFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bolts/StopWordsFilter.java">
+      <file leaf-file-name="Example.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NaiveBayes/Example.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+              <folding>
+                <element signature="e#417#433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeparatorBolt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bolts/SeparatorBolt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterWeirdCharsBolt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bolts/FilterWeirdCharsBolt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintAllBolt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bolts/PrintAllBolt.java">
+      <file leaf-file-name="ClassifierBolt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bolts/ClassifierBolt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="39" />
-              <folding />
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,64 +164,9 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles classes 'test'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Bundles the project as a JVM application with libs and OS specific scripts." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="distTar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles Java source 'test:java'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles Java source 'main:java'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Bundles the project as a JVM application with libs and OS specific scripts." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="distZip" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
@@ -215,9 +179,44 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles classes 'main'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a JVM application with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a JVM application with libs and OS specific scripts." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distZip" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs the project as a JVM application along with libs and OS specific scripts." />
@@ -225,9 +224,14 @@
                 <option name="name" value="installApp" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="description" value="Assembles a jar archive containing the main classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes resources 'main:resources'." />
@@ -235,14 +239,29 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="description" value="Processes resources 'test:resources'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="startScripts" />
+                <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs this project as a JVM application" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -251,7 +270,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="2867086027429" />
+        <entry key="$PROJECT_DIR$/../../Patitos" value="2867097100000" />
+        <entry key="$PROJECT_DIR$" value="2876386668308" />
+        <entry key="$USER_HOME$/nic/ratadns-processing-logic/storm-layer" value="2872603074162" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -335,11 +356,11 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.clojure/clojure/1.5.1/e7e53da8bc4ac41fca95ccfacf84f9469dd3147f/clojure-1.5.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.2.1/384faa82e193d4e4b0546059ca09572654bc3970/commons-fileupload-1.2.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/jline/jline/0.9.94/99a18e9a44834afdebc467294e1138364c207402/jline-0.9.94.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.1/99129f16442844f6a4a11ae22fbbee40b14d774f/junit-3.8.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.2/81d61b7f33ebeab314e07de0cc596f8e858d97/slf4j-api-1.7.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.1/fd51f906669f49a4ffd06650666c3b8147a6106e/commons-io-2.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.1/99129f16442844f6a4a11ae22fbbee40b14d774f/junit-3.8.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$" />
@@ -351,53 +372,53 @@
               <option name="name" value="NuestroProyecto" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-base-services-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/groovy-all-2.3.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-launcher-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-model-groovy-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-model-core-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-cli-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-open-api-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-native-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-model-groovy-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-wrapper-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-resources-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-model-core-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-ui-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-base-services-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-core-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/ant-launcher-1.9.3.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-tooling-api-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-messaging-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-wrapper-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-native-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-resources-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-ui-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-open-api-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-docs-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-base-services-groovy-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-jacoco-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-resources-http-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-announce-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-cpp-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-build-comparison-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-language-base-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-publish-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-plugins-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-build-init-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-ivy-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-plugin-development-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-jetty-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-sonar-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-javascript-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-reporting-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-osgi-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-signing-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/gradle-launcher-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/groovy-all-2.3.6.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-ear-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-diagnostics-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-scala-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-announce-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-plugins-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-language-jvm-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-jacoco-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-signing-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-build-comparison-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-resources-http-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-maven-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-plugin-use-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-ivy-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-javascript-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-publish-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-antlr-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-code-quality-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-language-base-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-core-impl-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-maven-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-antlr-2.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-language-jvm-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-scala-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-sonar-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-build-init-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-reporting-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-plugin-development-2.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-ide-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-cpp-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-osgi-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-diagnostics-2.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.1-bin/5b0mvpi458g6uwso3hnta42q2/gradle-2.1/lib/plugins/gradle-jetty-2.1.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -414,16 +435,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/NaiveBayes/IFeatureProbability.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NaiveBayes/Classification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NaiveBayes/Classifier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NaiveBayes/BayesClassifier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NaiveBayes/Example.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UTF8.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bolts/FilterWeirdCharsBolt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bolts/NormalizeBolt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Topology.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bolts/NormalizerBolt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bolts/ClassifierBolt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bolts/SeparatorBolt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bolts/StopWordsFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bolts/StopWordsFilterBolt.java" />
       </list>
     </option>
   </component>
@@ -438,11 +453,12 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1922" />
-    <option name="height" value="1055" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -465,9 +481,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -515,6 +530,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -588,62 +607,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="NaiveBayes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuestroProyecto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Patitos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bolts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-Naive-Bayes-Classifier" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RunManager" selected="Application.Topology">
-    <configuration default="false" name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="NaiveBayes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="NaiveBayes.Example" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="NuestroProyecto" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Topology" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Topology" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="NuestroProyecto" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="UTF8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="UTF8" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -704,10 +712,10 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -803,34 +811,27 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.Example" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Topology" />
-      <item index="2" class="java.lang.String" itemvalue="Application.UTF8" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Topology" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.Topology" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UTF8" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Example" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2787e321-b845-4e63-a1dc-5efce6109751" name="Default" comment="" />
-      <created>1434158347414</created>
+      <changelist id="9c3bcddc-b468-47ad-b31b-fcca630f958e" name="Default" comment="" />
+      <created>1438193373776</created>
       <option name="number" value="Default" />
-      <updated>1434158347414</updated>
+      <updated>1438193373776</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -840,23 +841,23 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.50193477" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946378" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25594252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -871,36 +872,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/NaiveBayes/IFeatureProbability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1986755">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NaiveBayes/Classification.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/common-english-words.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NaiveBayes/Classifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="32" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NaiveBayes/BayesClassifier.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024429968">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bolts/ClassifierBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
           <folding>
-            <element signature="e#2485#2507#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NaiveBayes/Classifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="371" column="7" selection-start-line="371" selection-start-column="5" selection-end-line="371" selection-end-column="7" />
+          <folding>
+            <element signature="e#12896#12897#0" expanded="true" />
+            <element signature="e#12968#12969#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -908,76 +912,54 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/NaiveBayes/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="27" />
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding>
             <element signature="e#417#433#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UTF8.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Topology.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bolts/SeparatorBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bolts/PrintAllBolt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spouts/TweetSpout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="182" column="8" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bolts/StopWordsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bolts/FilterWeirdCharsBolt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#851#999#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-          </folding>
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bolts/NormalizerBolt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Topology.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bolts/StopWordsFilterBolt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.632107">
-          <caret line="31" column="98" selection-start-line="31" selection-start-column="98" selection-end-line="31" selection-end-column="98" />
-          <folding />
+        <state vertical-scroll-proportion="0.757329">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
